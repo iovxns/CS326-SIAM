@@ -4,11 +4,13 @@
 build basic login and dashboard
 
 ## selected stories
-- create account  
-- log in  
-- dashboard  
-- log out  
-- error messages  
+
+- create account - member 1  
+- log in - member 2  
+- dashboard - member 3  
+- log out - member 4  
+- error messages - member 5  
+- upload profile picture - member 2
 
 ## story points
 12-15

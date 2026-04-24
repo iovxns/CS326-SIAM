@@ -2,25 +2,21 @@
 
 ## roles
 
-**project manager**
-- manages team and tasks  
+**pm / scrum**
+- manages sprint and tasks  
 
-**frontend**
-- builds ui  
+**qa lead**
+- handles testing  
 
-**backend**
-- handles server and data  
+**devops lead**
+- manages deployment and repo  
 
-**qa**
-- tests system  
-
-**documentation**
-- updates files  
+**docs lead**
+- updates documentation  
 
 ## members
 
-- member 1 - project manager  
-- member 2 - frontend  
-- member 3 - backend  
-- member 4 - qa  
-- member 5 - documentation  
+- member 1 - pm / scrum  
+- member 2 - qa lead  
+- member 3 - devops lead  
+- member 4 - docs lead  

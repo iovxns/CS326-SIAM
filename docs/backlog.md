@@ -110,3 +110,15 @@ as a user, i want error messages so that i know what went wrong
 
 **acceptance criteria:**
 - errors are shown clearly  
+
+### 11
+**user story:**  
+as a user, i want to upload a profile picture so that i can personalize my account
+
+**priority:** medium  
+**story points:** 3  
+
+**acceptance criteria:**
+- user can upload image  
+- image is saved  
+- profile displays image  
