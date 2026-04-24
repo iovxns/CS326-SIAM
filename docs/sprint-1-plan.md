@@ -10,6 +10,7 @@ build basic login and dashboard
 - dashboard - member 3  
 - log out - member 4  
 - error messages - member 5  
+- upload profile picture - member 2
 
 ## story points
 12-15
