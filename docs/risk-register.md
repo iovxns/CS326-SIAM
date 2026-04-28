@@ -12,8 +12,8 @@
 | scope creep | 3 | 3 | 9 | limit new features | member 4 |
 | file upload errors | 3 | 3 | 9 | validate file type and size | member 3 |
 
-Risk: Data Injection | Mitigation: Input validation.
-
-Risk: Secret Leakage | Mitigation: Use of .env and .gitignore.
-
-Risk: Vulnerable Packages | Mitigation: Running npm audit.
+| risk | likelihood (1-5) | impact (1-5) | score | mitigation | owner |
+| :--- | :---: | :---: | :---: | :--- | :--- |
+| data injection | 3 | 5 | 15 | implemented input validation in app.js | member 3 |
+| secret leakage | 2 | 5 | 10 | added .env to .gitignore | member 1 |
+| vulnerable packages | 4 | 3 | 12 | performed npm audit and CI integration | member 3 |
