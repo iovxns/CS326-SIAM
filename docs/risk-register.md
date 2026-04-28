@@ -11,3 +11,9 @@
 | data loss | 2 | 5 | 10 | backup regularly | member 3 |
 | scope creep | 3 | 3 | 9 | limit new features | member 4 |
 | file upload errors | 3 | 3 | 9 | validate file type and size | member 3 |
+
+Risk: Data Injection | Mitigation: Input validation.
+
+Risk: Secret Leakage | Mitigation: Use of .env and .gitignore.
+
+Risk: Vulnerable Packages | Mitigation: Running npm audit.
