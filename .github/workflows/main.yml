@@ -1,0 +1,23 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Deploy
+        run: |
+          echo "Deploying to production..."
+          # Insert your actual deployment command here (e.g., npm run deploy)
+          
+      - name: Smoke Test
+        run: |
+          echo "Verifying deployment works..."
+          # Simple check to see if your site is up
+          curl -I --fail https://your-site-url.com || exit 1
