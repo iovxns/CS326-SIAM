@@ -1,23 +1,29 @@
-name: CI/CD Pipeline
+name: CI Pipeline
 
 on:
   push:
     branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
-  deploy-and-test:
+  test:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
 
-      - name: Deploy
-        run: |
-          echo "Deploying to production..."
-          # Insert your actual deployment command here (e.g., npm run deploy)
-          
-      - name: Smoke Test
-        run: |
-          echo "Verifying deployment works..."
-          # Simple check to see if your site is up
-          curl -I --fail https://your-site-url.com || exit 1
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install pytest
+        run: pip install pytest
+
+      - name: Run Tests
+        run: pytest project/code/tests/ -v
+
+      - name: Security Audit
+        run: npm audit --audit-level=high || true

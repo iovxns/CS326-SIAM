@@ -1,0 +1,30 @@
+2026-05-06 02:10:04,500 - INFO - Register attempt for username: 'john'
+2026-05-06 02:10:04,500 - INFO - Registration successful
+2026-05-06 02:10:04,500 - INFO - Login attempt for username: 'admin'
+2026-05-06 02:10:04,500 - INFO - Login successful
+2026-05-06 02:10:04,500 - INFO - Login attempt for username: 'admin'
+2026-05-06 02:10:04,500 - WARNING - Login failed: Invalid credentials
+2026-05-06 02:10:04,500 - INFO - Profile update attempt for name: 'a'
+2026-05-06 02:10:04,500 - WARNING - Profile update failed: Name too short
+2026-05-06 02:10:48,918 - INFO - Register attempt for username: 'john'
+2026-05-06 02:10:48,918 - INFO - Registration successful
+2026-05-06 02:10:48,918 - INFO - Login attempt for username: 'admin'
+2026-05-06 02:10:48,918 - INFO - Login successful
+2026-05-06 02:10:48,918 - INFO - Login attempt for username: 'admin'
+2026-05-06 02:10:48,918 - WARNING - Login failed: Invalid credentials
+2026-05-06 02:10:48,918 - INFO - Profile update attempt for name: 'a'
+2026-05-06 02:10:48,918 - WARNING - Profile update failed: Name too short
+2026-05-08 16:51:58,688 - INFO - Register attempt for username: 'alice'
+2026-05-08 16:51:58,688 - INFO - Registration successful
+2026-05-08 16:51:58,688 - INFO - Register attempt for username: ''
+2026-05-08 16:51:58,688 - WARNING - Registration failed: Empty username or password
+2026-05-08 16:51:58,689 - INFO - Login attempt for username: 'admin'
+2026-05-08 16:51:58,689 - INFO - Login successful
+2026-05-08 16:51:58,689 - INFO - Login attempt for username: 'admin'
+2026-05-08 16:51:58,689 - WARNING - Login failed: Invalid credentials
+2026-05-08 16:51:58,689 - INFO - Login attempt for username: ''
+2026-05-08 16:51:58,689 - WARNING - Login failed: Invalid credentials
+2026-05-08 16:51:58,689 - INFO - Profile update attempt for name: 'Alice Johnson'
+2026-05-08 16:51:58,689 - INFO - Profile update successful
+2026-05-08 16:51:58,690 - INFO - Profile update attempt for name: 'A'
+2026-05-08 16:51:58,690 - WARNING - Profile update failed: Name too short
